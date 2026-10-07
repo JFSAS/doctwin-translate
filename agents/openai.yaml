@@ -1,0 +1,9 @@
+interface:
+  display_name: "DocTwin Translate"
+  short_description: "Layout-first bilingual PDFs with AI translation QA."
+  icon_small: "./assets/doctwin-logo.svg"
+  icon_large: "./assets/doctwin-logo.svg"
+  brand_color: "#0EA5E9"
+  default_prompt: "Use $doctwin-translate to turn this document into a layout-preserving bilingual PDF with terminology control and render QA."
+policy:
+  allow_implicit_invocation: true
